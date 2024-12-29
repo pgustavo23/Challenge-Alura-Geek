@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "4076",
+      "nome": "Gameboy",
+      "preco": 15,
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/1200px-Game-Boy-FL.jpg"
+    },
+    {
+      "id": "9a1b",
+      "nome": "Genius",
+      "preco": 25.9,
+      "imagem": "https://m.media-amazon.com/images/I/81xxnjcGmQL.jpg"
+    },
+    {
+      "id": "d87a",
+      "nome": "PC Gamer",
+      "preco": 1590.9,
+      "imagem": "https://www.bringit.com.br/blog/wp-content/uploads/2020/11/depositphotos_22196675-stock-photo-desktop-computer.jpg"
+    },
+    {
+      "id": "b101",
+      "nome": "Quadro ALF",
+      "preco": 69.8,
+      "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3pbk9h6t7tn82"
+    },
+    {
+      "id": "7465",
+      "nome": "Tamagotchi",
+      "preco": 10,
+      "imagem": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2014/10/10/tamagotchi.jpg"
+    },
+    {
+      "id": "75e3",
+      "nome": "Super Nintendo",
+      "preco": 299.9,
+      "imagem": "https://acdn.mitiendanube.com/stores/002/872/152/products/snes11-dd80484eadeeab554d16795135175010-1024-1024.png"
+    },
+    {
+      "id": "23ba",
+      "nome": "Tazos Yu-Gi-Oh",
+      "preco": 30.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_960727-MLB51872350107_102022-O.webp"
+    },
+    {
+      "id": "51ab",
+      "nome": "Super Trunfo",
+      "preco": 6.9,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_738269-MLB77955177295_072024-O.webp"
+    }
+  ]
+}

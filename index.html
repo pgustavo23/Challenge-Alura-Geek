@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AluraGeek - Loja virtual para fãs de tecnologia, cultura geek e muito mais!">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script src="./js/criaCard.js" type="module" defer></script>
+    <script src="./js/mostrarCards.js" type="module" defer></script>
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="cabecalho" role="banner">
+        <img src="./assets/image1.png" alt="Logotipo: corações de vida em pixel art" class="logo">
+        <h1 class="titulo__cabecalho">AluraGeek</h1>
+    </header>
+    <main class="conteudo__principal" role="main">
+        <section class="cards__produtos" aria-labelledby="produtos-titulo">
+            <h1 id="produtos-titulo" class="titulo__produtos">Meus Produtos!</h1>
+            <ul class="produtos__cadastrados" aria-live="polite" data-lista></ul>
+        </section>
+        <aside class="adiciona__produto" aria-labelledby="formulario-titulo">
+            <h2 id="formulario-titulo" class="titulo__formulario">Adicionar Produtos:</h2>
+            <form class="formulario__adicao" data-formulario aria-describedby="instrucoes-formulario">
+                <input class="input__adiçao" type="text" name="nome" id="nome" placeholder="Nome do produto..." required data-nome>
+
+                <input class="input__adiçao" type="number" step="0.01" name="preco" id="preco" placeholder="Preço do produto..." min="0" required data-preco>
+
+                <input class="input__adiçao" type="url" name="imagem" id="imagem" placeholder="URL da imagem do produto..." required data-imagem>
+
+                <div class="botoes__formulario">
+                    <button class="botao" type="submit">Adicionar</button>
+                    <button class="botao" type="reset">Limpar</button>
+                </div>
+            </form>
+        </aside>
+    </main>
+    <footer class="rodape" role="contentinfo">
+        <div class="logo__aluraGeek">
+            <img src="./assets/image1.png" alt="Logotipo: corações de vida em pixel art" class="logo">
+            <h1 class="titulo__rodape">AluraGeek</h1>
+        </div>
+        <p class="conteudo__rodape">
+            DESENVOLVIDO POR GUSTAVO PERDIGÃO <br>
+            ALURA - 2024
+        </p>
+    </footer>
+</body>
+</html>
