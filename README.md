@@ -80,11 +80,28 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos 
 
 ## 🛍️ Produtos Cadastrados
 Os produtos são exibidos de forma dinâmica através de cartões que mostram o nome, preço e imagem de cada item. <br>
-A lista de produtos é atualizada em tempo real, permitindo que os usuários façam adições de novos produtos, ou exclusão dos que já existem através do ```Ícone da Lixeira``` presente em cada card de produto.
+A lista de produtos é atualizada em tempo real, permitindo que os usuários visualizem as adições ou exclusão dos produtos.
+
+<img alt="Tela de Produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/meusProdutos.png?raw=true" width="400"/>
+
 ##
+
 ## ✏️ Formulário de Adição de Produto
 O formulário de adição de produto permite que os usuários insiram o nome, preço e imagem do produto que desejam adicionar ao campo ```Meus Produtos!```. <br>
 Além disso, ele possui validação para garantir que todos os campos sejam preenchidos corretamente.
 
-![Formulario de adição de produtos](https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutos.png?raw=true)
-![Formulario de adição de produtos](https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutosValidacao.png?raw=true)
+<img alt="Formulário de adição de produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutos.png?raw=true" width="200" height="207" />   <img alt="Validação Formulário de adição de produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutosValidacao.png?raw=true" width="200" height="207" />
+
+ ##
+ 
+## ⭐ Agradecimentos
+Muito obrigado por visualizar o projeto **AluraGeek**! Sua atenção e feedback são extremamente valiosos para o aprimoramento contínuo do projeto. <br>
+
+Se você gostou, não esqueça de **dar uma estrela**! <br> 
+Compartilhe com outras pessoas que possam se interessar, isso ajuda a apoiar o desenvolvimento de mais projetos como esse. <br>  
+
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
+
+---
+
+**Desenvolvido por Gustavo Perdigão | Alura - 2024**
