@@ -24,7 +24,6 @@ export default function constroiCard(id, nome, preco, imagem) {
         } catch (error) {
             console.error('Erro ao excluir produto: ', error);
         }
-        window.location.reload()
     });
 
     return card;
@@ -38,7 +37,7 @@ async function listaProdutos() {
         lista.innerHTML = `<div class="erro__container"><h2 class = "mensagem__titulo">Não foi possível carregar a lista de vídeos</h2></div>`
     }
 }
-
+window.location.reload()
 listaProdutos();
 
 
