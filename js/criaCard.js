@@ -12,9 +12,9 @@ async function criarCard(evento) {
     try{
         await conectaApi.criaProduto(nome, preco, imagem);
     } catch (e) {
+        reload()
         alert(e);
     }
 }
 
 formulario.addEventListener("submit", evento => criarCard(evento));
-reload()
