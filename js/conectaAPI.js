@@ -1,12 +1,12 @@
 async function listaProdutos() {
-    const conexao = await fetch("http://localhost:3000/produtos");
+    const conexao = await fetch("https://challenge-alura-geek-tawny.vercel.app/");
     const conexaoConvertida = await conexao.json(); 
  
     return conexaoConvertida;
 }
 
 async function criaProduto(nome, preco, imagem) {
-    const conexao = await fetch("http://localhost:3000/produtos",{
+    const conexao = await fetch("https://challenge-alura-geek-tawny.vercel.app/",{
         method: "POST",
         headers:{
             "Content-type": "application/json"
@@ -28,7 +28,7 @@ async function criaProduto(nome, preco, imagem) {
 }
 
 async function deletaProduto(id) {
-    const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+    const conexao = await fetch(`https://challenge-alura-geek-tawny.vercel.app/produtos/${id}`, {
         method: "DELETE",
         headers: {
             "Content-type": "application/json"
