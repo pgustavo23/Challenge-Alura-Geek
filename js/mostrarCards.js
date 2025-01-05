@@ -18,6 +18,7 @@ export default function constroiCard(id, nome, preco, imagem) {
     const btnExcluir = card.querySelector('.delete-icon');
 
     btnExcluir.addEventListener('click', async () => {
+        window.location.reload()
         try {
             await conectaApi.deletaProduto(id);
             card.remove();
@@ -37,7 +38,6 @@ async function listaProdutos() {
         lista.innerHTML = `<div class="erro__container"><h2 class = "mensagem__titulo">Não foi possível carregar a lista de vídeos</h2></div>`
     }
 }
-window.location.reload()
 listaProdutos();
 
 
