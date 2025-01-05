@@ -18,11 +18,11 @@ export default function constroiCard(id, nome, preco, imagem) {
     const btnExcluir = card.querySelector('.delete-icon');
 
     btnExcluir.addEventListener('click', async () => {
-        window.location.reload()
         try {
             await conectaApi.deletaProduto(id);
             card.remove();
         } catch (error) {
+            window.location.reload()
             console.error('Erro ao excluir produto: ', error);
         }
     });
