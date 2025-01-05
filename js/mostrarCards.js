@@ -21,6 +21,7 @@ export default function constroiCard(id, nome, preco, imagem) {
         try {
             await conectaApi.deletaProduto(id);
             card.remove();
+            reload()
         } catch (error) {
             console.error('Erro ao excluir produto: ', error);
         }

@@ -17,3 +17,4 @@ async function criarCard(evento) {
 }
 
 formulario.addEventListener("submit", evento => criarCard(evento));
+reload()

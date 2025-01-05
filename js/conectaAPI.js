@@ -5,6 +5,10 @@ async function listaProdutos() {
     return conexaoConvertida;
 }
 
+function reload(){
+    window.location.reload()
+}
+
 async function criaProduto(nome, preco, imagem) {
     const conexao = await fetch("https://json-server-vercel-neon-three.vercel.app/produtos",{
         method: "POST",
@@ -43,5 +47,6 @@ async function deletaProduto(id) {
 export const conectaApi = {
     listaProdutos,
     criaProduto,
-    deletaProduto
+    deletaProduto,
+    reload
 }
