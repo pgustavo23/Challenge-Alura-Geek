@@ -1,9 +1,11 @@
 # AluraGeek - Loja Virtual
 
-Bem-vindo ao projeto **AluraGeek**, uma loja virtual desenvolvida para fãs de tecnologia e cultura geek! Este repositório contém o código-fonte de uma aplicação web que permite a visualização e o gerenciamento de produtos de forma dinâmica e acessível.
+Bem-vindo ao projeto **AluraGeek**, uma loja virtual desenvolvida para fãs de tecnologia e cultura geek! <br>
+Este repositório contém o código-fonte de uma aplicação web que permite a visualização e o gerenciamento de produtos de forma dinâmica e acessível.
+##
 
 ## 🖼️ Visualização do Projeto
-
+![Tela do Projeto para PC](https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/telaPC.png?raw=true)
 
 
 ## 📜 Funcionalidades
@@ -22,7 +24,7 @@ Bem-vindo ao projeto **AluraGeek**, uma loja virtual desenvolvida para fãs de t
   
 - **Melhorias de acessibilidade:**
   - Implementação de atributos como `aria-label`, `aria-live` para leitores de tela.
-
+##
 ## 💻 Conhecimentos Utilizados
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -52,7 +54,7 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos 
 ### **Acessibilidade Web (WCAG)**
 - Uso de atributos como `aria-label`, `aria-live` e `aria-hidden`.
 - Criação de botões interativos acessíveis e melhorias gerais para leitores de tela.
-
+##
 ## 🚀 Como Executar o Projeto
 
 1. Clone este repositório:
@@ -78,8 +80,28 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos 
 
 ## 🛍️ Produtos Cadastrados
 Os produtos são exibidos de forma dinâmica através de cartões que mostram o nome, preço e imagem de cada item. <br>
-A lista de produtos é atualizada em tempo real, permitindo que os usuários façam adições de novos produtos, ou exclusão dos que já existem através do ```Ícone da Lixeira``` presente em cada card de produto.
+A lista de produtos é atualizada em tempo real, permitindo que os usuários visualizem as adições ou exclusão dos produtos.
+
+<img alt="Tela de Produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/meusProdutos.png?raw=true" width="400"/>
+
 ##
+
 ## ✏️ Formulário de Adição de Produto
 O formulário de adição de produto permite que os usuários insiram o nome, preço e imagem do produto que desejam adicionar ao campo ```Meus Produtos!```. <br>
 Além disso, ele possui validação para garantir que todos os campos sejam preenchidos corretamente.
+
+<img alt="Formulário de adição de produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutos.png?raw=true" width="200" height="207" />   <img alt="Validação Formulário de adição de produtos" src="https://github.com/pgustavo23/Challenge-Alura-Geek/blob/master/imagensReadme/adicionarProdutosValidacao.png?raw=true" width="200" height="207" />
+
+ ##
+ 
+## ⭐ Agradecimentos
+Muito obrigado por visualizar o projeto **AluraGeek**! Sua atenção e feedback são extremamente valiosos para o aprimoramento contínuo do projeto. <br>
+
+Se você gostou, não esqueça de **dar uma estrela**! <br> 
+Compartilhe com outras pessoas que possam se interessar, isso ajuda a apoiar o desenvolvimento de mais projetos como esse. <br>  
+
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
+
+---
+
+**Desenvolvido por Gustavo Perdigão | Alura - 2024**
