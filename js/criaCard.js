@@ -12,7 +12,7 @@ async function criarCard(evento) {
     try{
         await conectaApi.criaProduto(nome, preco, imagem);
     } catch (e) {
-        alert(e);
+        alert('Por favor, recarregue a página para visualizar as alterações feitas!')
     }
 }
 

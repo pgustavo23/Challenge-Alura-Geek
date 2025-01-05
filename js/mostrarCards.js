@@ -22,6 +22,7 @@ export default function constroiCard(id, nome, preco, imagem) {
             await conectaApi.deletaProduto(id);
             card.remove();
         } catch (error) {
+            alert('Por favor, recarregue a página para visualizar as alterações feitas!')
             console.error('Erro ao excluir produto: ', error);
         }
     });
