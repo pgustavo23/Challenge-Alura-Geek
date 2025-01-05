@@ -43,6 +43,5 @@ async function deletaProduto(id) {
 export const conectaApi = {
     listaProdutos,
     criaProduto,
-    deletaProduto,
-    reload
+    deletaProduto
 }
