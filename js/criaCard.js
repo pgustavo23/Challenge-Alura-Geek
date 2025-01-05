@@ -12,7 +12,7 @@ async function criarCard(evento) {
     try{
         await conectaApi.criaProduto(nome, preco, imagem);
     } catch (e) {
-        window.location.reload();
+        alert(e);
     }
 }
 
