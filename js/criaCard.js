@@ -16,4 +16,4 @@ async function criarCard(evento) {
     }
 }
 
-formulario.addEventListener("submit", window.location.reload(), evento => criarCard(evento));
+formulario.addEventListener("submit", evento => criarCard(evento));
